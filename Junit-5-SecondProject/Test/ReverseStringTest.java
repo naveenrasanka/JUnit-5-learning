@@ -1,7 +1,7 @@
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ReverseStringTest {
     @Test
@@ -9,6 +9,6 @@ public class ReverseStringTest {
     ReverseString rs=new ReverseString();
     int actualRes= rs.multiply(3,5);
     assertEquals(15,actualRes);
-    
+
     }
 }
