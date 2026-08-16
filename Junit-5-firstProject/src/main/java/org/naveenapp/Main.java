@@ -2,12 +2,11 @@ package org.naveenapp;
 
 
 public class Main {
-    public static void main(String[] args) {
-
-        System.out.println("Hello and welcome!");
-        for (int i = 1; i <= 5; i++) {
-
-            System.out.println("i = " + i);
-        }
-    }
+    
+public int divide(int num1,int num2)
+{
+    int result=num1/num2;
+    return result;
+    
+}
 } 
