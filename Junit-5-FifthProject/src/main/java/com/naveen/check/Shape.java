@@ -6,4 +6,8 @@ public class Shape {
 
         return 3.14*radius*radius;
     }
+    public double squareArea(double len){
+
+        return len*len;
+    }
 }

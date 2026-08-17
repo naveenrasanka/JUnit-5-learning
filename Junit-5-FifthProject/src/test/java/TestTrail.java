@@ -15,6 +15,11 @@ public class TestTrail {
     public void ShapeTest(){
         Shape shapeObj=new Shape();
 
-       assertEquals(78.5,shapeObj.findAreaCircle(5));
+       assertEquals(78.5,shapeObj.findAreaCircle(5),"Not Working!!");
+    }
+    @Test
+    public void shapeTest_Supplire(){
+        Shape shapeObj=new Shape();
+      assertEquals(78.5,shapeObj.findAreaCircle(5),()->"Area is wrong!!");
     }
 }
