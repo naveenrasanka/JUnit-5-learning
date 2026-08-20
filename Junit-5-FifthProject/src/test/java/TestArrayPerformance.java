@@ -5,6 +5,7 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestArrayPerformance {
+
     @Test
     void testArrayPerformance(){
         SortingArray2 obj=new SortingArray2();
